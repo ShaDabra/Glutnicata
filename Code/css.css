@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input, select {
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    /* Премахнете position: fixed; и bottom: 0; */
+    /* position: fixed;
+    bottom: 0; */
+    width: 100%;
+}
+section#view-leave-requests {
+    margin: 20px;
+    padding-bottom: 100px; /* По ваш избор, като поставите височината на вашия footer */
+    position: relative; /* Добавете този ред */
+    min-height: 316px; /* Променете това на подходящата височина за вашия случай */
+}
+

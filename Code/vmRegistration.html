@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="vm.css">
+        <title>User Registration</title>
+    </head>
+    <body>
+
+        <h1>Регистрация</h1>
+        <form action="connection.php" method="post">
+            <label for="first_name">Име:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="firstName" required><br>
+
+            <label for="last_name">Фамилия:</label>
+            <input type="text" id="lastName" name="lastName" placeholder="lastName" required><br>
+
+            <label for="username">Потребителско име:</label>
+            <input type="text" id="username" name="username" placeholder="username" required><br>
+
+            <label for="password">Парола:</label>
+            <input type="password" id="password" name="password" placeholder="password" required><br>
+
+            <label for="role">Избери роля:</label>
+            <select id="role" name="role">
+                <option value="CEO">CEO</option>
+                <option value="Developer">Developer</option>
+                <option value="Team Lead">Team Lead</option>
+                <option value="Unassigned">Unassigned</option>
+            </select><br>
+
+            <label for="group">Избери група:</label>
+            <select id="group" name="group">
+                <option value="Group 1">Group 1</option>
+                <option value="Group 2">Group 2</option>
+                <option value="Group 3">Group 3</option>
+            </select><br>
+
+            <input type="submit" value="Register">
+        </form>
+
+        <a href="VacationManager.html">Връщане към началната страница</a>
+        
+    </body>
+</html>
